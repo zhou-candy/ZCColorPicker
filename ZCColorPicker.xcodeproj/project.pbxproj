@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81FC167828BC6781005EADBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FC167728BC6781005EADBC /* AppDelegate.m */; };
+		81FC167B28BC6781005EADBC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FC167A28BC6781005EADBC /* SceneDelegate.m */; };
+		81FC167E28BC6781005EADBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FC167D28BC6781005EADBC /* ViewController.m */; };
+		81FC168128BC6781005EADBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81FC167F28BC6781005EADBC /* Main.storyboard */; };
+		81FC168328BC6782005EADBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81FC168228BC6782005EADBC /* Assets.xcassets */; };
+		81FC168628BC6782005EADBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81FC168428BC6782005EADBC /* LaunchScreen.storyboard */; };
+		81FC168928BC6782005EADBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FC168828BC6782005EADBC /* main.m */; };
+		81FC169328BC6782005EADBC /* ZCColorPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FC169228BC6782005EADBC /* ZCColorPickerTests.m */; };
+		81FC169D28BC6782005EADBC /* ZCColorPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FC169C28BC6782005EADBC /* ZCColorPickerUITests.m */; };
+		81FC169F28BC6782005EADBC /* ZCColorPickerUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FC169E28BC6782005EADBC /* ZCColorPickerUITestsLaunchTests.m */; };
+		81FC16AD28BC67C4005EADBC /* ZCColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FC16AC28BC67C4005EADBC /* ZCColorPicker.m */; };
+		81FC16AF28BC680D005EADBC /* bulb_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FC16AE28BC680D005EADBC /* bulb_icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81FC168F28BC6782005EADBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81FC166B28BC6781005EADBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81FC167228BC6781005EADBC;
+			remoteInfo = ZCColorPicker;
+		};
+		81FC169928BC6782005EADBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81FC166B28BC6781005EADBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81FC167228BC6781005EADBC;
+			remoteInfo = ZCColorPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81FC167328BC6781005EADBC /* ZCColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZCColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81FC167628BC6781005EADBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		81FC167728BC6781005EADBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		81FC167928BC6781005EADBC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		81FC167A28BC6781005EADBC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		81FC167C28BC6781005EADBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		81FC167D28BC6781005EADBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		81FC168028BC6781005EADBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81FC168228BC6782005EADBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81FC168528BC6782005EADBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81FC168728BC6782005EADBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81FC168828BC6782005EADBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81FC168E28BC6782005EADBC /* ZCColorPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZCColorPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81FC169228BC6782005EADBC /* ZCColorPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCColorPickerTests.m; sourceTree = "<group>"; };
+		81FC169828BC6782005EADBC /* ZCColorPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZCColorPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81FC169C28BC6782005EADBC /* ZCColorPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCColorPickerUITests.m; sourceTree = "<group>"; };
+		81FC169E28BC6782005EADBC /* ZCColorPickerUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCColorPickerUITestsLaunchTests.m; sourceTree = "<group>"; };
+		81FC16AB28BC67C4005EADBC /* ZCColorPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCColorPicker.h; sourceTree = "<group>"; };
+		81FC16AC28BC67C4005EADBC /* ZCColorPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCColorPicker.m; sourceTree = "<group>"; };
+		81FC16AE28BC680D005EADBC /* bulb_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bulb_icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81FC167028BC6781005EADBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81FC168B28BC6782005EADBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81FC169528BC6782005EADBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81FC166A28BC6781005EADBC = {
+			isa = PBXGroup;
+			children = (
+				81FC167528BC6781005EADBC /* ZCColorPicker */,
+				81FC169128BC6782005EADBC /* ZCColorPickerTests */,
+				81FC169B28BC6782005EADBC /* ZCColorPickerUITests */,
+				81FC167428BC6781005EADBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81FC167428BC6781005EADBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81FC167328BC6781005EADBC /* ZCColorPicker.app */,
+				81FC168E28BC6782005EADBC /* ZCColorPickerTests.xctest */,
+				81FC169828BC6782005EADBC /* ZCColorPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81FC167528BC6781005EADBC /* ZCColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				81FC167628BC6781005EADBC /* AppDelegate.h */,
+				81FC167728BC6781005EADBC /* AppDelegate.m */,
+				81FC167928BC6781005EADBC /* SceneDelegate.h */,
+				81FC167A28BC6781005EADBC /* SceneDelegate.m */,
+				81FC16AB28BC67C4005EADBC /* ZCColorPicker.h */,
+				81FC16AC28BC67C4005EADBC /* ZCColorPicker.m */,
+				81FC167C28BC6781005EADBC /* ViewController.h */,
+				81FC167D28BC6781005EADBC /* ViewController.m */,
+				81FC16AE28BC680D005EADBC /* bulb_icon@2x.png */,
+				81FC167F28BC6781005EADBC /* Main.storyboard */,
+				81FC168228BC6782005EADBC /* Assets.xcassets */,
+				81FC168428BC6782005EADBC /* LaunchScreen.storyboard */,
+				81FC168728BC6782005EADBC /* Info.plist */,
+				81FC168828BC6782005EADBC /* main.m */,
+			);
+			path = ZCColorPicker;
+			sourceTree = "<group>";
+		};
+		81FC169128BC6782005EADBC /* ZCColorPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				81FC169228BC6782005EADBC /* ZCColorPickerTests.m */,
+			);
+			path = ZCColorPickerTests;
+			sourceTree = "<group>";
+		};
+		81FC169B28BC6782005EADBC /* ZCColorPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81FC169C28BC6782005EADBC /* ZCColorPickerUITests.m */,
+				81FC169E28BC6782005EADBC /* ZCColorPickerUITestsLaunchTests.m */,
+			);
+			path = ZCColorPickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81FC167228BC6781005EADBC /* ZCColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81FC16A228BC6782005EADBC /* Build configuration list for PBXNativeTarget "ZCColorPicker" */;
+			buildPhases = (
+				81FC166F28BC6781005EADBC /* Sources */,
+				81FC167028BC6781005EADBC /* Frameworks */,
+				81FC167128BC6781005EADBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZCColorPicker;
+			productName = ZCColorPicker;
+			productReference = 81FC167328BC6781005EADBC /* ZCColorPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81FC168D28BC6782005EADBC /* ZCColorPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81FC16A528BC6782005EADBC /* Build configuration list for PBXNativeTarget "ZCColorPickerTests" */;
+			buildPhases = (
+				81FC168A28BC6782005EADBC /* Sources */,
+				81FC168B28BC6782005EADBC /* Frameworks */,
+				81FC168C28BC6782005EADBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81FC169028BC6782005EADBC /* PBXTargetDependency */,
+			);
+			name = ZCColorPickerTests;
+			productName = ZCColorPickerTests;
+			productReference = 81FC168E28BC6782005EADBC /* ZCColorPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81FC169728BC6782005EADBC /* ZCColorPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81FC16A828BC6782005EADBC /* Build configuration list for PBXNativeTarget "ZCColorPickerUITests" */;
+			buildPhases = (
+				81FC169428BC6782005EADBC /* Sources */,
+				81FC169528BC6782005EADBC /* Frameworks */,
+				81FC169628BC6782005EADBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81FC169A28BC6782005EADBC /* PBXTargetDependency */,
+			);
+			name = ZCColorPickerUITests;
+			productName = ZCColorPickerUITests;
+			productReference = 81FC169828BC6782005EADBC /* ZCColorPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81FC166B28BC6781005EADBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					81FC167228BC6781005EADBC = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					81FC168D28BC6782005EADBC = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 81FC167228BC6781005EADBC;
+					};
+					81FC169728BC6782005EADBC = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 81FC167228BC6781005EADBC;
+					};
+				};
+			};
+			buildConfigurationList = 81FC166E28BC6781005EADBC /* Build configuration list for PBXProject "ZCColorPicker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81FC166A28BC6781005EADBC;
+			productRefGroup = 81FC167428BC6781005EADBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81FC167228BC6781005EADBC /* ZCColorPicker */,
+				81FC168D28BC6782005EADBC /* ZCColorPickerTests */,
+				81FC169728BC6782005EADBC /* ZCColorPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81FC167128BC6781005EADBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FC168628BC6782005EADBC /* LaunchScreen.storyboard in Resources */,
+				81FC168328BC6782005EADBC /* Assets.xcassets in Resources */,
+				81FC16AF28BC680D005EADBC /* bulb_icon@2x.png in Resources */,
+				81FC168128BC6781005EADBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81FC168C28BC6782005EADBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81FC169628BC6782005EADBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81FC166F28BC6781005EADBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FC167E28BC6781005EADBC /* ViewController.m in Sources */,
+				81FC167828BC6781005EADBC /* AppDelegate.m in Sources */,
+				81FC16AD28BC67C4005EADBC /* ZCColorPicker.m in Sources */,
+				81FC168928BC6782005EADBC /* main.m in Sources */,
+				81FC167B28BC6781005EADBC /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81FC168A28BC6782005EADBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FC169328BC6782005EADBC /* ZCColorPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81FC169428BC6782005EADBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FC169D28BC6782005EADBC /* ZCColorPickerUITests.m in Sources */,
+				81FC169F28BC6782005EADBC /* ZCColorPickerUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81FC169028BC6782005EADBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81FC167228BC6781005EADBC /* ZCColorPicker */;
+			targetProxy = 81FC168F28BC6782005EADBC /* PBXContainerItemProxy */;
+		};
+		81FC169A28BC6782005EADBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81FC167228BC6781005EADBC /* ZCColorPicker */;
+			targetProxy = 81FC169928BC6782005EADBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81FC167F28BC6781005EADBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81FC168028BC6781005EADBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81FC168428BC6782005EADBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81FC168528BC6782005EADBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81FC16A028BC6782005EADBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		81FC16A128BC6782005EADBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81FC16A328BC6782005EADBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZCColorPicker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Candy.ZCColorPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81FC16A428BC6782005EADBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZCColorPicker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Candy.ZCColorPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81FC16A628BC6782005EADBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Candy.ZCColorPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZCColorPicker.app/ZCColorPicker";
+			};
+			name = Debug;
+		};
+		81FC16A728BC6782005EADBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Candy.ZCColorPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZCColorPicker.app/ZCColorPicker";
+			};
+			name = Release;
+		};
+		81FC16A928BC6782005EADBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Candy.ZCColorPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZCColorPicker;
+			};
+			name = Debug;
+		};
+		81FC16AA28BC6782005EADBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Candy.ZCColorPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZCColorPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81FC166E28BC6781005EADBC /* Build configuration list for PBXProject "ZCColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81FC16A028BC6782005EADBC /* Debug */,
+				81FC16A128BC6782005EADBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81FC16A228BC6782005EADBC /* Build configuration list for PBXNativeTarget "ZCColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81FC16A328BC6782005EADBC /* Debug */,
+				81FC16A428BC6782005EADBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81FC16A528BC6782005EADBC /* Build configuration list for PBXNativeTarget "ZCColorPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81FC16A628BC6782005EADBC /* Debug */,
+				81FC16A728BC6782005EADBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81FC16A828BC6782005EADBC /* Build configuration list for PBXNativeTarget "ZCColorPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81FC16A928BC6782005EADBC /* Debug */,
+				81FC16AA28BC6782005EADBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81FC166B28BC6781005EADBC /* Project object */;
+}
